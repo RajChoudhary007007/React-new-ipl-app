@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.blog-item-link {
+  color: black;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #475569;
+}
+.image-heading {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+}
+.card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  max-height: 200px;
+}
+.card-image {
+  width: 40%;
+  height: 40%;
+}

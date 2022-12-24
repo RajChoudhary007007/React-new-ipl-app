@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.team-container-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 20px;
+}
+.team-container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  min-height: 90vh;
+  background-image: linear-gradient(#a4261d, #d91c1f, #1e293b);
+  padding: 30px;
+}
+.banner-image {
+  width: 100%;
+}
+.recent-matches-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 24px;
+}
